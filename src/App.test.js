@@ -28,7 +28,7 @@ describe('Color Component test Cases', () => {
     render(<App />);
     // Checking weather the button is in clickable state
     const buttonElement = screen.getByRole('button', { name: 'Change to blue' });
-    expect(buttonElement).toBeDisabled();
+    expect(buttonElement).toBeEnabled();
 
     // Checkbox is not checked
     const checkBox = screen.getByRole('checkbox', { name: 'Disable the button' });
