@@ -41,6 +41,8 @@ describe('Color Component test Cases', () => {
     const checkBox = screen.getByRole('checkbox', { name: 'Disable the button' });
     fireEvent.click(checkBox);
 
+    // Sample Comment to check
+
     // Make sure the checkbox is checked
     expect(checkBox).toBeChecked();
 
